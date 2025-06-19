@@ -37,8 +37,24 @@
   "contributes": {
     "commands": [
       {
-        "command": "key-sequencer.helloWorld",
-        "title": "Hello World"
+        "command": "key-sequencer.start",
+        "title": "Start key sequence listening"
+      },
+      {
+        "command": "key-sequencer.cancel",
+        "title": "Cancel key sequence listening"
+      }
+    ],
+    "keybindings": [
+      {
+        "key": "alt+oem_comma",
+        "command": "key-sequencer.start",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "escape",
+        "command": "key-sequencer.cancel",
+        "when": "key-sequencer.active"
       }
     ]
   },
