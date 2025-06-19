@@ -2,13 +2,36 @@
   "name": "key-sequencer",
   "displayName": "Key Sequencer",
   "description": "Execute commands with your own mnemonic key sequences, inspired by which-key.",
+  "publisher": "chaploud",
+  "author": {
+    "name": "chaploud",
+    "url": "https://github.com/chaploud"
+  },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.101.0"
   },
+  "icon": "images/icon.png",
   "categories": [
+    "Keymaps",
     "Other"
   ],
+  "keywords": [
+    "which-key",
+    "keymap",
+    "key-sequencer",
+    "keybindings",
+    "mnemonic"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/chaploud/vscode-key-sequencer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chaploud/vscode-key-sequencer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chaploud/vscode-key-sequencer/issues"
+  },
   "activationEvents": [],
   "main": "./dist/extension.js",
   "contributes": {
